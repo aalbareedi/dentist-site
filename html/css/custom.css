@@ -21,8 +21,8 @@ body {
   margin: 0px;
 }
 .site-logo {
-  /* margin-left: 14px !important; */
-  margin-left: 70px !important;
+  margin-left: 60px !important;
+  /* margin-left: 70px !important; */
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -45,11 +45,11 @@ body {
 }
 .logo-text-name {
   font-weight: 700;
-  font-size: 17px;
+  font-size: 18px;
 }
 .logo-text-title {
   font-size: 14px;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.65px;
   line-height: 16px;
 }
 #back_to_top {
@@ -79,9 +79,9 @@ body {
 }
 .logo-img {
   position: absolute;
-  left: 10px;
-  top: 12px;
-  width: 52px;
+  left: 9px;
+  top: 9px;
+  width: 42px;
 }
 .hover_color_bg {
   background-color: #a2d9f5;
@@ -91,4 +91,22 @@ body {
 }
 .landing-content {
   padding: 90px 0px 90px 0px;
+}
+/* .rs-parallax-wrap:nth-child(3) {
+  background-color: red;
+} */
+.intro-content-cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  column-gap: 30px;
+  margin-bottom: 40px;
+}
+.landing-content-services {
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .intro-content-cards {
+    flex-direction: row;
+  }
 }

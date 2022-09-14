@@ -10042,3 +10042,12 @@ jQuery(window).on("load", function () {
    * --------------------------------------------------------------------------- */
   jQuery(".before_after.twentytwenty-container").twentytwenty();
 });
+
+// $(document).ready(() => {
+//   console.log("doc ready");
+//   $("#slider-1-slide-1-layer-2").parent().addClass("test");
+
+//   $("#slider-1-slide-1-layer-1").append(
+//     `<div class="testing">Welcome To Our Clinic</div>`
+//   );
+// });
