@@ -44,9 +44,9 @@ rs-progress {
   border-radius: 60px;
   overflow: hidden;
 }
-.hover_color:hover .hover_color_bg {
+/* .hover_color:hover .hover_color_bg {
   background-color: #a2d9f5;
-}
+} */
 /* hover_color */
 
 .hover_color {
