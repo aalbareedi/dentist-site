@@ -105,6 +105,19 @@ body {
 .landing-content-services {
   justify-content: center;
 }
+.landing-welcome {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  text-align: center !important;
+  color: rgb(51, 133, 215);
+  line-height: 7px;
+  letter-spacing: 0px;
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
 @media screen and (min-width: 768px) {
   .intro-content-cards {
     flex-direction: row;
